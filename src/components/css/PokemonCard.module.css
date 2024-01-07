@@ -1,0 +1,82 @@
+.imagenContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen {
+  border: 2px solid rgb(195, 191, 191);
+  width: 75%;
+  border-radius: 10px;
+}
+
+.containerHeightWeight {
+  display: flex;
+
+  & p {
+    text-align: center;
+    flex-grow: 1;
+  }
+}
+
+.abilityItem {
+  width: fit-content;
+  border-width: 1px !important;
+  border-radius: 10px !important;
+}
+
+.abilityContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.statGroup {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  & li:nth-child(1) {
+    background-color: green;
+    color: antiquewhite;
+  }
+  & li:nth-child(2) {
+    background-color: red;
+    color: antiquewhite;
+  }
+  & li:nth-child(3) {
+    background-color: blue;
+    color: antiquewhite;
+  }
+  & li:nth-child(4) {
+    background-color: pink;
+  }
+  & li:nth-child(5) {
+    background-color: fuchsia;
+  }
+  & li:nth-child(6) {
+    background-color: skyblue;
+  }
+}
+.statContainer {
+  display: flex;
+  width: fit-content;
+  border-width: 1px !important;
+  border-radius: 10px !important;
+  & p {
+    margin-bottom: 0;
+  }
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+/* .statWrapper {
+  margin-top: auto;
+} */

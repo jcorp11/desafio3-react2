@@ -12,6 +12,12 @@ body {
   height: 100vh;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -24,6 +30,7 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  width: 100%;
 }
 
 .links {

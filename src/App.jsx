@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 
 import Home from "./views/Home";
+import Choose from "./views/Choose";
+import Poke from "./views/Poke";
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/favoritos" element={<Favorites />} /> */}
+        <Route path="/choosePokemon" element={<Choose />} />
+        <Route path="/pokemon/:id" element={<Poke />} />
       </Routes>
     </>
   );
