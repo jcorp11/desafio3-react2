@@ -3,7 +3,7 @@ import styles from "./css/PokemonCard.module.css";
 import { v4 as uuidv4 } from "uuid";
 
 const PokemonCard = ({ pokemon }) => {
-  console.log(pokemon);
+  // console.log(pokemon);
 
   const statAbr = {
     hp: "Hp",
