@@ -4,12 +4,13 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Maitree", serif;
+  font-family: "Open Sans", serif;
 }
 
 body {
   margin: 0;
   height: 100vh;
+  background-color: bisque;
 }
 
 #root {
@@ -25,17 +26,18 @@ a {
 
 .navbar {
   background: grey;
-  padding: 20px;
+
   color: white;
   display: flex;
   justify-content: space-between;
   gap: 20px;
   width: 100%;
+  padding: 20px 30%;
 }
 
 .links {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .active {
@@ -51,4 +53,9 @@ a {
   & img {
     width: 300px;
   }
+}
+
+.icon img {
+  width: 40px;
+  color: aqua;
 }

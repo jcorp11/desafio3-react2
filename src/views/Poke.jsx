@@ -12,15 +12,15 @@ export default function Poke() {
     axios
       .get(poke_URL)
       .then((response) => {
-        console.log(poke_URL);
-        console.log(response.data);
+        // console.log(poke_URL);
+        // console.log(response.data);
         setPokemon(response.data);
         return response;
       })
       .catch((error) => console.log(error));
   }, []);
 
-  console.log(pokemon);
+  // console.log(pokemon);
   return (
     <div className="mt-5">
       {pokemon.id && (
